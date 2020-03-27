@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-function newPlace() {
+function NewPlace() {
   return <h2>NewPlace Works!</h2>
 };
 
-export default newPlace;
+export default NewPlace;

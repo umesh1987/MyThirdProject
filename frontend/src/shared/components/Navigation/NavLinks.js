@@ -1,9 +1,9 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import "./NavLinks.css";
+import './NavLinks.css';
 
-function navLinks(props) {
+function NavLinks(props) {
   return <ul className="nav-links">
     <li>
       <NavLink to="/" exact>ALL USERS</NavLink>
@@ -15,9 +15,9 @@ function navLinks(props) {
       <NavLink to="/places/new">ADD PLACE</NavLink>
     </li>
     <li>
-      <NavLink to="/auth">SIGN UP</NavLink>
+      <NavLink to="/auth">AUTHENTICATE</NavLink>
     </li>
   </ul>
 };
 
-export default navLinks;
+export default NavLinks;

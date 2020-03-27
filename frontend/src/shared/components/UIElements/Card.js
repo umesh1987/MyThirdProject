@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import "./Card.css";
+import './Card.css';
 
-function card(props) {
+function Card(props) {
   return (
     <div className={`card ${props.className}`} style={props.style}>
       {props.children}
@@ -10,4 +10,4 @@ function card(props) {
   );
 };
 
-export default card;
+export default Card;
