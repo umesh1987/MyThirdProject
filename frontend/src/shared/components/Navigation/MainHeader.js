@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./MainHeader.css";
+import './MainHeader.css';
 
-function mainHeader(props) {
+function MainHeader(props)  {
   return <header className="main-header">{props.children}</header>;
 };
 
-export default mainHeader;
+export default MainHeader;
