@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './NavLinks.css';
 
-function NavLinks(props) {
+const NavLinks = props => {
   return <ul className="nav-links">
     <li>
       <NavLink to="/" exact>ALL USERS</NavLink>
